@@ -16,7 +16,7 @@
 
 2. Open the Prometheus configuration file prometheus.yml using a text editor:
     ```bash
-    nano prometheus.yml
+    vim prometheus.yml
 3. Modify the prometheus.yml file to scrape metrics from your processing program
     ```yaml
 
