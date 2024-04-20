@@ -43,7 +43,8 @@
 ### Step 4: Access Prometheus UI
 
 Open your web browser and navigate to 
-      ```bash
-      http://your_server_ip:9090.
+   ```bash
+   http://your_server_ip:9090.
+
 Replace your_server_ip with the IP address of your Linux server.
 You should see the Prometheus web UI.
