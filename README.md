@@ -10,14 +10,14 @@
 
 ### Step 2: Configure Prometheus
 1. Navigate into the Prometheus directory:
-  ```bash
-  cd prometheus-2.34.0.linux-amd64
+    ```bash
+    cd prometheus-2.34.0.linux-amd64
 
 2. Open the Prometheus configuration file prometheus.yml using a text editor:
-  ```bash
-  nano prometheus.yml
+    ```bash
+    nano prometheus.yml
 3. Modify the prometheus.yml file to scrape metrics from your RabbitMQ processing program. Here's an example configuration to scrape metrics from localhost:9090 (replace localhost:9090 with the address of your RabbitMQ processing program):
-  ```yaml
+    ```yaml
 
   global:
     scrape_interval:     15s
@@ -32,7 +32,7 @@
 ### Step 3: Run Prometheus
 
 - Run Prometheus using the following command:
-  ```bash
-  ./prometheus --config.file=prometheus.yml
+    ```bash
+    ./prometheus --config.file=prometheus.yml
 
 - Prometheus will start and begin scraping metrics from the specified targets.
