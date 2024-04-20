@@ -43,8 +43,16 @@
 ### Step 4: Access Prometheus UI
 
 Open your web browser and navigate to 
-   ```bash
+    ```bash
       http://your_server_ip:9090.
 
-Replace your_server_ip with the IP address of your Linux server.
+- Replace your_server_ip with the IP address of your Linux server.
 You should see the Prometheus web UI.
+
+### Step 5: Verify Prometheus Configuration
+Go to 
+      ```bash
+      http://your_server_ip:9090/targets to verify that Prometheus is able to scrape metrics from your RabbitMQ processing program.
+      
+### Step 6: Set up Node Exporter (Optional)
+Node Exporter is a Prometheus exporter for system metrics.
