@@ -17,16 +17,16 @@
     ```bash
     nano prometheus.yml
 3. Modify the prometheus.yml file to scrape metrics from your RabbitMQ processing program. Here's an example configuration to scrape metrics from localhost:9090
-```yaml
+  ```yaml
 
-  global:
-    scrape_interval:     15s
-    evaluation_interval: 15s
+    global:
+      scrape_interval:     15s
+      evaluation_interval: 15s
 
-  scrape_configs:
-    - job_name: 'rabbitmq_processing_program'
-      static_configs:
-        - targets: ['localhost:9090']  # Address of your RabbitMQ processing program
+    scrape_configs:
+      - job_name: 'rabbitmq_processing_program'
+        static_configs:
+          - targets: ['localhost:9090']  # Address of your RabbitMQ processing program
 4. Save and exit the text editor.
 
 ### Step 3: Run Prometheus
