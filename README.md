@@ -51,8 +51,8 @@ You should see the Prometheus web UI.
 
 ### Step 5: Verify Prometheus Configuration
 - Go to 
-      ```bash
-      http://your_server_ip:9090/targets
+  ```bash
+  http://your_server_ip:9090/targets
 - to verify that Prometheus is able to scrape metrics from your processing program.
       
 ### Step 6: Set up Node Exporter (Optional)
