@@ -25,7 +25,7 @@
         evaluation_interval: 15s
 
       scrape_configs:
-        - job_name: 'rabbitmq_processing_program'
+        - job_name: 'data_processing_program'
           static_configs:
             - targets: ['localhost:9090']  # Address of your RabbitMQ processing program
 
