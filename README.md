@@ -2,10 +2,10 @@
 
 ### Step 1: Download and Extract Prometheus
 1. Download the latest version of Prometheus:
-  ´´bash
+   ```bash
   wget https://github.com/prometheus/prometheus/releases/download/v2.34.0/prometheus-2.34.0.linux-amd64.tar.gz
 2. Extract the downloaded file:
-  ´´´bash
+  ```bash
   tar xvfz prometheus-2.34.0.linux-amd64.tar.gz
 
 ### Step 2: Configure Prometheus
