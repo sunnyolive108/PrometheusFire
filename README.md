@@ -42,7 +42,7 @@
 
 ### Step 4: Access Prometheus UI
 
-Open your web browser and navigate to 
+- Open your web browser and navigate to 
     ```bash
       http://your_server_ip:9090.
 
