@@ -27,7 +27,7 @@
       scrape_configs:
         - job_name: 'data_processing_program'
           static_configs:
-            - targets: ['localhost:9090']  # Address of your RabbitMQ processing program
+            - targets: ['localhost:9090']  # Address of your DATA processing program
 
 4. Save and exit the text editor.
 
